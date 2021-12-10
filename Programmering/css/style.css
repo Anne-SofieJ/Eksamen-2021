@@ -74,7 +74,7 @@ p {
 
 /* Baggrund */
 body{
-    background: url(../images/forside/baggrund.jpg)center;
+    background: url(../images/forside/baggrund.png)center;
     height: auto;
     width: auto;
 }
@@ -91,12 +91,12 @@ body{
 
 /* Billeder */
 div.gallery {
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   margin-top: 8%;
 }
 
 .gallery:hover {
-  border: 1px solid #777;
+  border: 2px solid var(--yellow);
 }
 
 .gallery img {
@@ -137,40 +137,6 @@ div.gallery {
   display: table;
   clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* -------------------------------- Forside --------------------------------*/

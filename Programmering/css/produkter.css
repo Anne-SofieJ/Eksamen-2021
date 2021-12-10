@@ -75,7 +75,7 @@ p {
 
 /* Baggrund */
 body{
-    background: url(../images/forside/baggrund.jpg)center;
+    background: url(../images/forside/baggrund.png)center;
     height: auto;
     width: auto;
 }
@@ -229,7 +229,7 @@ div.gallery {
   }
   
   .gallery:hover {
-    border: 1px solid #777;
+    border: 2px solid var(--yellow);
   }
   
   .gallery img {
@@ -354,7 +354,7 @@ div.gallery {
   }
   
   .gallery:hover {
-    border: 1px solid #777;
+    border: 2px solid var(--yellow);
   }
   
   .gallery img {
