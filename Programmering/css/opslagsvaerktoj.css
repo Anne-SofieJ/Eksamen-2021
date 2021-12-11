@@ -14,7 +14,7 @@
     font-family: Outfit;
   }
 
-/* Farver */
+/* ----------------------------- Farver ----------------------------------*/
 :root {
   --white: #ffffff;
   --black: #000000;
@@ -22,7 +22,7 @@
 }
 
 
-/* Typografi*/
+/* ----------------------------- Typografi ----------------------------------*/
 h1 {
 font-family: Outfit;
 font-weight: 300;
@@ -66,30 +66,29 @@ h6 {
   padding-bottom: 6%;
   padding-right: 20px;
 }
+
 p {
   font-family: Outfit;
   font-weight: 300;
 }
 
 
-/* Baggrund */
+/* ----------------------------- Baggrund ----------------------------------*/
 body{
     background: url(../images/forside/baggrund.png)center;
     height: auto;
     width: auto;
 }
 
-/* Sne */
+/* ----------------------------- Sne ----------------------------------*/
 .snowflake {
   color: var(--black);
   font-size: 2em;
 }
 @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
 
-/* -------------------------------- Opslagsværktøj --------------------------------*/
 
-
-/* Nav bar computer*/
+/* ----------------------------- Navbar - Computer ----------------------------------*/
 header {
     border-top: 1px solid white;
   }
@@ -102,14 +101,12 @@ header {
 }
 
 .kurvcomputer {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    right: 6%;
-    top: 6%;
+  position: absolute;
+  right: 10%;
+  top: 10%;
 }
 
-/* Nav bar mobil*/
+/* ----------------------------- Navbar - Mobil ----------------------------------*/
 .logomobil {
     position: absolute;
     left: 40%;
@@ -120,7 +117,7 @@ header {
   top: 6%;
 }
 
-/* Menu - Mobil*/
+/* ----------------------------- Menu - Mobil ----------------------------------*/
 .burger {
     position: fixed;
     right: 310px;
@@ -149,8 +146,8 @@ header {
     clear: both;
   }
 
-  /* Menu - Computer*/
-  .menu{
+/* ----------------------------- Menu - Computer ----------------------------------*/
+.menu{
     text-decoration: none;
     margin-top: 5%;
     margin-left: 20%;
@@ -166,7 +163,7 @@ header {
   }
 
 
-/* Indhold - Mobil */
+/* ----------------------------- Indhold - Mobil ----------------------------------*/
 .overskift1mob {
     text-align: center;
     padding-left:19%;
@@ -238,7 +235,7 @@ header {
   }
  
 
-/* Indhold - Computer */
+/* ----------------------------- Indhold - Computer ----------------------------------*/
 
 .overskift1com {
     text-align: center;
@@ -260,14 +257,12 @@ padding-top: 1%;
 padding-bottom: 4%;
 }
 
-
 .negcom1 {
     position:absolute;
     opacity: 0.6;
     margin-left: 8%;
     margin-top: 3%;
 }
-
 
 .btncom {
     font-family: Outfit;
@@ -287,7 +282,6 @@ padding-bottom: 4%;
     width: 100%;
     font-family: Outfit;
   }
-  
 
   .negcom2{
       position:absolute;
@@ -295,6 +289,7 @@ padding-bottom: 4%;
       margin-left: 79%;
       margin-top: 5%;
   }
+
   .inputcom {
     font-family: Outfit;
     width: 60%;
@@ -307,6 +302,7 @@ padding-bottom: 4%;
     margin-right: 20%;
     border: 2px solid var(--yellow);
   }
+
   .clearfixcom::after {
     content: "";
     clear: both;
@@ -338,7 +334,7 @@ padding-bottom: 4%;
 
 
 
-/* ----------------------------- Footer mobil ----------------------------------*/
+/* ----------------------------- Footer - Mobil ----------------------------------*/
 .responsive1 {
     padding-left: 5%;
     padding-bottom: 1%;
@@ -383,10 +379,10 @@ padding-bottom: 4%;
     }
     
     
-    /* ----------------------------- Footer computer ----------------------------------*/
+    /* ----------------------------- Footer - Computer ----------------------------------*/
     .responsive2 {
-      padding-top: 9%;
-      padding-left: 8%;
+      padding-top: 6%;
+      padding-left: 6%;
       }
     
       .footercomputer {
@@ -394,28 +390,23 @@ padding-bottom: 4%;
         border-top: 2px solid grey;
         background-image: linear-gradient(grey, transparent);
         height: 40px;
-        position: relative;
-        z-index: 0;
         display: flex;
         flex-direction: row;
       }
       
       .some11 {
         position: absolute;
-        z-index: 2;
-        padding-left: 63%;
+        padding-left: 65%;
       }
     
       .some22 {
         position: absolute;
-        z-index: 2;
-        padding-left: 63%;
+        padding-left: 66.5%;
       }
     
       .some33 {
         position: absolute;
-        z-index: 2;
-        padding-left: 63%;
+        padding-left: 68%;
       }
       
       .socialemediercom {
@@ -445,8 +436,7 @@ padding-bottom: 4%;
       }
     
     
-    /* ------------------------------ Mediarules ------------------------------*/
-    /* Menu - Telefon / stående tablet*/
+    /* ------------------------------ Mediarules - Telefon / stående tablet ------------------------------*/
     @media only screen and (max-width: 812px) {
       .logocomputer {
           display: none;
@@ -485,7 +475,7 @@ padding-bottom: 4%;
       }
     }
     
-    /* Menu - Computer / liggende tablet*/
+    /* ------------------------------ Mediarules - Computer / liggende tablet ------------------------------*/
     @media only screen and (min-width: 813px) {
         .burger {
             display: none;
@@ -503,7 +493,7 @@ padding-bottom: 4%;
           display: none;
         }
     
-        .kurvcomputer {
+        .kurvmobil {
           display: none;
         }
     
