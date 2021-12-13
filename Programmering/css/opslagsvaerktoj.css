@@ -442,14 +442,6 @@ padding-bottom: 4%;
           display: none;
       }
     
-      .forsidebilledecomputer {
-          display: none;
-      }
-    
-      .Overskriftforsidecomputer {
-        display: none;
-      }
-    
       .kurvcomputer {
         display: none;
       }
@@ -462,9 +454,6 @@ padding-bottom: 4%;
         display: none;
       }
     
-      .opskriftbilledercomputer {
-        display: none;
-      }
     
       .footercomputer {
         display: none;
@@ -485,35 +474,7 @@ padding-bottom: 4%;
             display: none;
         }
     
-        .forsidebilledemobil {
-            display: none;
-        }
-    
-        .opskriftbilledermobil {
-          display: none;
-        }
-    
         .kurvmobil {
-          display: none;
-        }
-    
-        .Overskriftforsidemobil {
-          display: none;
-        }
-    
-        .tip {
-          display: none;
-        }
-    
-        .fiktivtekst {
-          display: none;
-        }
-    
-        .tiptekst {
-          display: none;
-        }
-    
-        #neg {
           display: none;
         }
     

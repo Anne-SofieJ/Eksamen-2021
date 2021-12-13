@@ -297,14 +297,6 @@ padding-top: 3%;
     .logocomputer {
         display: none;
     }
-
-    .forsidebilledecomputer {
-        display: none;
-    }
-    
-    .Overskriftforsidecomputer {
-      display: none;
-    }
     
     .kurvcomputer {
       display: none;
@@ -315,10 +307,6 @@ padding-top: 3%;
     }
     
     .menuitem {
-      display: none;
-    }
-    
-    .opskriftbilledercomputer {
       display: none;
     }
 
@@ -345,19 +333,7 @@ padding-top: 3%;
             display: none;
         }
     
-        .forsidebilledemobil {
-            display: none;
-        }
-    
-        .opskriftbilledermobil {
-          display: none;
-        }
-    
         .kurvmobil {
-          display: none;
-        }
-    
-        .Overskriftforsidemobil {
           display: none;
         }
     

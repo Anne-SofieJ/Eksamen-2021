@@ -189,16 +189,6 @@ header {
   top:41%;
 }
 
-.opskriftbilledermobil {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  margin-right: 40px;
-  margin-left: 40px;
-}
-
 .tip {
   position: relative;
   background-color: var(--yellow);
@@ -414,10 +404,6 @@ padding-top: 4%;
     display: none;
   }
 
-  .opskriftbilledercomputer {
-    display: none;
-  }
-
   #pakke {
     display: none;
   }
@@ -442,10 +428,6 @@ padding-top: 4%;
 
     .forsidebilledemobil {
         display: none;
-    }
-
-    .opskriftbilledermobil {
-      display: none;
     }
 
     .kurvmobil {
