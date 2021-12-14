@@ -77,6 +77,7 @@ body{
     background: url(../images/forside/baggrund.png)center;
     height: auto;
     width: auto;
+    background-repeat: repeat;
 }
 
 /* ------------------------------ Sne ------------------------------*/
@@ -292,6 +293,7 @@ div.gallery {
 .responsive1 {
 padding-left: 5%;
 padding-bottom: 1%;
+z-index: 3;
 }
 
 .some1 {
@@ -351,16 +353,19 @@ padding-top: 4%;
   .some11 {
     position: absolute;
     padding-left: 65%;
+    z-index: 2;
   }
 
   .some22 {
     position: absolute;
     padding-left: 66.5%;
+    z-index: 1;
   }
 
   .some33 {
     position: absolute;
     padding-left: 68%;
+    z-index: 0;
   }
   
   .socialemediercom {
