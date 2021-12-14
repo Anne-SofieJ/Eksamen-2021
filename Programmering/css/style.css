@@ -118,31 +118,43 @@ header {
 
 /* ------------------------------ Menu - Mobil ------------------------------*/
 .burger {
-    position: fixed;
-    right: 310px;
-    z-index: 100000;
-    width: 300px;
-    top: 19%;
-    background-color:var(--white);
-    font-family: Outfit;
-    text-align: center;
-    clear: auto;
-  }
-  
-  #showMenu {
-    float: right;
-    writing-mode: tb-rl;
-    transform: rotate(-180deg);
-    padding: 20px;
-    padding-bottom: 35%;
-  }
+  position: fixed;
+  left: -62%;
+  z-index: 100000;
+  width: 300px;
+  top: 19%;
+  padding-bottom: 40%;
+  background-color:var(--white);
+  font-family: Outfit;
+  text-align: center;
+  list-style-type: none;
+}
 
-  .burger:hover {
-    left:0px;
+#showMenu {
+  float: right;
+  transform: rotate(-90deg);
+  margin-top: 44%;
+}
+
+#menupunkter {
+  margin-left: 20%;
+  margin-top: 20%;
+  position: absolute;
+}
+
+.burger:hover {
+  left:0px;
+}
+
+nav {
+  clear: both;
+}
+
+/* ------------------------------ Mediarule for iPhone 5/SE ------------------------------*/
+@media only screen and (max-width: 320px) {
+  .burger {
+    left:-69%
   }
-  
-  nav {
-    clear: both;
   }
 
 /* ------------------------------ Menu - Computer ------------------------------*/
@@ -377,7 +389,7 @@ padding-top: 4%;
     z-index: 0;
   }
 
-
+ 
   /* ------------------------------ Mediarules - Telefon / stående tablet ------------------------------*/
   @media only screen and (max-width: 812px) {
   .logocomputer {
