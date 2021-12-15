@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* font-family: 'Outfit', sans-serif; brødtekst */
 
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,9 +11,10 @@
     text-decoration: none;
     color: black;
     font-family: Outfit;
+    list-style-type: none;
   }
 
-/* ------------------------------ Sne ------------------------------*/
+/* ------------------------------ Farver ------------------------------*/
 :root {
   --white: #ffffff;
   --black: #000000;
@@ -109,7 +109,7 @@ header {
 /* ------------------------------ Navbar - Mobil ------------------------------*/
 .logomobil {
     position: absolute;
-    left: 40%;
+    left: 45%;
 }
 .kurvmobil {
   position: absolute;
@@ -120,7 +120,7 @@ header {
 /* ------------------------------ Menu - Mobil ------------------------------*/
 .burger {
   position: fixed;
-  left: -62%;
+  left: -68%;
   z-index: 100000;
   width: 300px;
   top: 19%;
@@ -137,7 +137,7 @@ header {
   margin-top: 44%;
 }
 
-#menupunkter {
+.menupunkter {
   margin-left: 20%;
   margin-top: 20%;
   position: absolute;

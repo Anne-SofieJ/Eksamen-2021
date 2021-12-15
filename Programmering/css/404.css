@@ -11,8 +11,8 @@
     text-decoration: none;
     color: black;
     font-family: Outfit;
+    list-style-type: none;
   }
-
 
 /* ----------------------------- Farver ----------------------------------*/
 :root {
@@ -98,7 +98,7 @@ header {
    width: 50px;
    height: 50px;
    left: 6%;
-   z-index: 4;
+   z-index: 40;
 }
 
 .kurvcomputer {
@@ -110,12 +110,14 @@ header {
 /* ----------------------------- Navbar - Mobil ----------------------------------*/
 .logomobil {
     position: absolute;
-    left: 40%;
+    left: 45%;
+    z-index: 3;
 }
 .kurvmobil {
   position: absolute;
   right: 10%;
   top: 6%;
+  z-index: 2;
 }
 
 /* ------------------------------ Menu - Mobil ------------------------------*/
@@ -138,7 +140,7 @@ header {
   margin-top: 44%;
 }
 
-#menupunkter {
+.menupunkter {
   margin-left: 20%;
   margin-top: 20%;
   position: absolute;

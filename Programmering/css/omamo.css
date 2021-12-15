@@ -12,6 +12,7 @@
     text-decoration: none;
     color: black;
     font-family: Outfit;
+    list-style-type: none;
   }
 
 /* ----------------------------- Farver ----------------------------------*/
@@ -112,7 +113,7 @@ header {
 /* ----------------------------- Navbar - Mobil ----------------------------------*/
 .logomobil {
     position: absolute;
-    left: 40%;
+    left: 45%;
 }
 .kurvmobil {
   position: absolute;
@@ -123,7 +124,7 @@ header {
 /* ------------------------------ Menu - Mobil ------------------------------*/
 .burger {
   position: fixed;
-  left: -62%;
+  left: -68%;
   z-index: 100000;
   width: 300px;
   top: 19%;
@@ -140,7 +141,7 @@ header {
   margin-top: 44%;
 }
 
-#menupunkter {
+.menupunkter {
   margin-left: 20%;
   margin-top: 20%;
   position: absolute;
