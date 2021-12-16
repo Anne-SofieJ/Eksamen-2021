@@ -73,7 +73,7 @@ p {
 }
 
 
-/* ----------------------------- Baggrund ----------------------------------*/
+/* ----- Baggrund - hjælp fra siden https://unsplash.com/photos/vS3idIiYxX0 -----*/
 body{
     background: url(../images/forside/baggrund.png)center;
     height: auto;
@@ -81,7 +81,7 @@ body{
     background-repeat: repeat;
 }
 
-/* ----------------------------- Sne ----------------------------------*/
+/*------ Sne - hjælp fra siden https://codepen.io/codeconvey/pen/xRzQay ------*/
 .snowflake {
   color: var(--black);
   font-size: 2em;
